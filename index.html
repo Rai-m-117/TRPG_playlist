@@ -2,91 +2,51 @@
 <html lang="ja">
 
 <head>
-
-  <!-- 文字コード -->
   <meta charset="UTF-8">
-
-  <!-- スマホ対応 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- タブタイトル -->
   <title>TRPG Session Archive</title>
 
-  <!-- CSS読み込み -->
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-  <!-- サイトタイトル -->
   <h1>TRPG Session Archive</h1>
 
   <div class="top-bar">
     <select id="sortFilter">
-
-      <option value="default">
-        並び替え
-      </option>
-
-      <option value="title">
-        シナリオ名順
-      </option>
-
-      <option value="year">
-        通過年順
-      </option>
-
-      <option value="system">
-        システム順
-      </option>
-
-      <option value="duration">
-        総時間順
-      </option>
-
+      <option value="default">並び替え</option>
+      <option value="title">シナリオ名順</option>
+      <option value="year">通過年順</option>
+      <option value="system">システム順</option>
+      <option value="duration">総時間順</option>
     </select>
-
   </div>
 
-  <!-- 検索・フィルタ -->
   <div class="controls">
 
-    <!-- シナリオ名検索 -->
-    <input
-      type="text"
-      id="searchInput"
-      placeholder="シナリオ名検索">
+    <input type="text" id="searchInput" placeholder="シナリオ名検索">
 
-    <!-- システム検索 -->
     <select id="systemFilter">
       <option value="">システム</option>
     </select>
 
-    <!-- 通過年検索 -->
     <select id="yearFilter">
       <option value="">通過年</option>
     </select>
 
-    <!-- KP検索 -->
     <select id="kpFilter">
       <option value="">KP</option>
     </select>
 
-    <!-- PL検索 -->
     <select id="playerFilter">
       <option value="">PL</option>
     </select>
 
   </div>
 
-  <!-- カード一覧表示場所 -->
-  <div
-    class="card-container"
-    id="cardContainer">
-  </div>
+  <div class="card-container" id="cardContainer"></div>
 
-  <!-- JS読み込み -->
   <script src="script.js"></script>
 
 </body>

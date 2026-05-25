@@ -12,8 +12,7 @@
     "playlistUrl": "https://youtube.com/playlist?list=PLKuvjYGaE8JCFxMmb-9PbbhSNBV9Go4ZH&si=5_ImltTUV-LIpTpR",
     "thumbnail": "images/ワンディス.png",
     "memo": "テスト"
-  }
-  ,
+  },
   {
     "videoType": "parts",
     "title": "ウルトラヒロイック",
@@ -24,12 +23,15 @@
     "durationSort": 12,
     "kps": ["さくちゃん"],
     "players": ["しろむ","IAЯ","ハクレイ","微炭酸カルシウム"],
-    "partLinks": [ {
-      "name": "Part1",
-      "url": "https://youtube.com/aaa"
-    },{
-      "name": "Part2",
-      "url": "https://youtube.com/bbb"
-    }]
+    "partLinks": [
+      {
+        "name": "Part1",
+        "url": "https://youtube.com/aaa"
+      },
+      {
+        "name": "Part2",
+        "url": "https://youtube.com/bbb"
+      }
+    ]
   }
 ]
