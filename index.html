@@ -2,17 +2,25 @@
 <html lang="ja">
 
 <head>
+  <!-- 文字コード設定 -->
   <meta charset="UTF-8">
+
+  <!-- スマホ対応 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ブラウザタブに表示されるタイトル -->
   <title>TRPG Session Archive</title>
 
+  <!-- スタイルシート読み込み -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <!-- サイトタイトル -->
   <h1>TRPG Session Archive</h1>
 
+  <!-- 並び替えメニュー -->
   <div class="top-bar">
     <select id="sortFilter">
       <option value="default">並び替え</option>
@@ -23,30 +31,38 @@
     </select>
   </div>
 
+  <!-- 検索・絞り込みフィルター -->
   <div class="controls">
 
+    <!-- シナリオ名検索 -->
     <input type="text" id="searchInput" placeholder="シナリオ名検索">
 
+    <!-- システム絞り込み -->
     <select id="systemFilter">
       <option value="">システム</option>
     </select>
 
+    <!-- 通過年絞り込み -->
     <select id="yearFilter">
       <option value="">通過年</option>
     </select>
 
+    <!-- KP絞り込み -->
     <select id="kpFilter">
       <option value="">KP</option>
     </select>
 
+    <!-- PL絞り込み -->
     <select id="playerFilter">
       <option value="">PL</option>
     </select>
 
   </div>
 
+  <!-- セッションカード表示エリア -->
   <div class="card-container" id="cardContainer"></div>
 
+  <!-- カード生成・検索機能などの処理 -->
   <script src="script.js"></script>
 
 </body>
