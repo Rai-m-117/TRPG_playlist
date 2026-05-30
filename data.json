@@ -1,7 +1,6 @@
 [
-  {
+  { "title": "ワンルーム・ディスコン",
     "videoType": "playlist",
-    "title": "ワンルーム・ディスコン",
     "system": "CoC",
     "date": "2022-8-27",
     "year": 2022,
@@ -13,9 +12,9 @@
     "thumbnail": "images/ワンディス.png",
     "memo": "テスト"
   },
-  {
+  
+  { "title": "ウルトラヒロイック",
     "videoType": "parts",
-    "title": "ウルトラヒロイック",
     "system": "エモクロア",
     "date": "2026-4-4~5",
     "year": 2025,
